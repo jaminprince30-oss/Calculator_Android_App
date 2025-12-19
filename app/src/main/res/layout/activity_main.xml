@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="#1D1D1D"
     tools:context=".MainActivity">
-
-    <!-- Display Area (Top 25%) -->
+    
     <LinearLayout
         android:id="@+id/displayArea"
         android:layout_width="match_parent"
@@ -41,8 +40,7 @@
             android:padding="16dp"
             android:textSize="32sp" />
     </LinearLayout>
-
-    <!-- Button Grid (Bottom 75%) -->
+    
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -52,8 +50,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
-
-        <!-- Row 1: AC, %, x², π, backspace -->
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -116,7 +113,6 @@
                 android:background="@drawable/ripple_effect_operations" />
         </LinearLayout>
 
-        <!-- Row 2: x³, sin, cos, tan, eˣ -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -179,7 +175,6 @@
                 android:background="@drawable/ripple_effect_numbers" />
         </LinearLayout>
 
-        <!-- Row 3: 1/x, sin⁻¹, cos⁻¹, tan⁻¹, √ -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -241,8 +236,7 @@
                 android:textColor="@color/colorWhite"
                 android:background="@drawable/ripple_effect_numbers" />
         </LinearLayout>
-
-        <!-- Row 4: 7 8 9 × C(=AC duplicate or normal clear) -->
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -305,7 +299,6 @@
                 android:background="@drawable/ripple_effect_operations" />
         </LinearLayout>
 
-        <!-- Row 5: 4 5 6 - n! -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -368,7 +361,6 @@
                 android:background="@drawable/ripple_effect_numbers" />
         </LinearLayout>
 
-        <!-- Row 6: 1 2 3 + ( ) -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -431,7 +423,6 @@
                 android:background="@drawable/ripple_effect_numbers" />
         </LinearLayout>
 
-        <!-- Row 7: 0 . = -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
