@@ -191,10 +191,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Factorial
         expr = handleFactorial(expr);
-
-        // Optional debug: see final JS string
-        // outputTV.setText(expr);
-
+        
         try {
             String result = evaluate(expr);
             outputTV.setText(result);
